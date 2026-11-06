@@ -7,7 +7,7 @@ Formato de cada entrada: el de `prompts/README.md`.
 ## NBS-01
 
 - **Date and time:** 2026-10-30
-- **Author:** (rellenar)
+- **Author:** Carolina
 - **Tool:** Claude Code (Opus 5.5)
 - **Files touched:** ninguno (solo lectura)
 - **Result:** accepted
@@ -24,7 +24,7 @@ Claude encontró la carpeta en OneDrive\Desktop, listó todos sus archivos y ley
 ## NBS-02
 
 - **Date and time:** 2026-10-30
-- **Author:** (rellenar)
+- **Author:** Ana
 - **Tool:** Claude Code (Opus 5.5)
 - **Files touched:** ninguno (solo lectura)
 - **Result:** accepted
@@ -41,7 +41,7 @@ Claude leyó el .docx del skeleton, el .docx de SnapSplit completo, los README y
 ## NBS-03
 
 - **Date and time:** 2026-10-30
-- **Author:** (rellenar)
+- **Author:** Carolina
 - **Tool:** Claude Code (Opus 5.5)
 - **Files touched:** prompts_borrador.md (este borrador)
 - **Result:** accepted
@@ -58,7 +58,7 @@ Claude explicó que una sesión de Claude Code no se comparte en directo entre d
 ## NBS-04
 
 - **Date and time:** 2026-10-30
-- **Author:** (rellenar)
+- **Author:** Ana
 - **Tool:** Claude Code (Opus 5.5)
 - **Files touched:** ninguno del proyecto (solo lectura; extrajo los .zip de las sesiones a una carpeta temporal)
 - **Result:** accepted
@@ -75,7 +75,7 @@ Claude leyó la carpeta "SnapSplit Sesiones": 12 PDFs de prácticas (S1–S12) y
 ## NBS-05
 
 - **Date and time:** 2026-10-30
-- **Author:** (rellenar)
+- **Author:** Ana
 - **Tool:** Claude Code (Opus 5.5)
 - **Files touched:** ninguno
 - **Result:** accepted
@@ -92,7 +92,7 @@ Claude explicó que la conversación se guarda en el PC y se recupera con `claud
 ## NBS-06
 
 - **Date and time:** 2026-10-30
-- **Author:** (rellenar)
+- **Author:** Carolina
 - **Tool:** Claude Code (Opus 5.5)
 - **Files touched:** ninguno
 - **Result:** accepted
@@ -109,7 +109,7 @@ Claude dio los pasos: abrir la terminal, `cd C:\Users\carol` y `claude --resume`
 ## NBS-07
 
 - **Date and time:** 2026-11-06
-- **Author:** (rellenar)
+- **Author:** Carolina
 - **Tool:** Claude Code (Opus 5.5)
 - **Files touched:** prompts/NotesBySubject.md (nuevo), CLAUDE.md (nuevo)
 - **Result:** accepted
@@ -125,7 +125,7 @@ Claude pasó el borrador al cuaderno único `prompts/NotesBySubject.md`, con el 
 ## NBS-08
 
 - **Date and time:** 2026-11-06
-- **Author:** (rellenar)
+- **Author:** Ana
 - **Tool:** Claude Code (Opus 5.5)
 - **Files touched:** todo el skeleton copiado a C:\Android\NotesBySubject
 - **Result:** (rellenar)
@@ -141,7 +141,7 @@ Claude comprobó la configuración de Git (nombre y email ya puestos). No pudo l
 ## NBS-09
 
 - **Date and time:** 2026-11-06
-- **Author:** (rellenar)
+- **Author:** Carolina
 - **Tool:** Claude Code (Opus 5.5)
 - **Files touched:** todo el skeleton (primer commit), README.md, CLAUDE.md, prompts/NotesBySubject.md
 - **Result:** accepted
@@ -154,3 +154,19 @@ A ver prueba ahora que he cambiado el repo a publico
 ### What happened
 
 Con el repo público, Claude lo clonó en C:\Android\NotesBySubject. El repo solo tenía un README.md, que era el del skeleton con un título añadido. Copió encima el skeleton completo con su README original, CLAUDE.md y este cuaderno, y dejó los archivos preparados (git add) para que hagamos nosotras el commit y el push.
+## NBS-10
+
+- **Date and time:** 2026-11-06
+- **Author:** Ana
+- **Tool:** Claude Code (Opus 5.5)
+- **Files touched:** prompts/NotesBySubject.md
+- **Result:** accepted
+- **How I checked it:** git log muestra el commit 9d2fa4c
+
+### Prompt
+
+Dime los pasos en orden, acabo de poner git commit -m "NBS-09 Add the skeleton, the prompt logbook and CLAUDE.md", y me has dicho que cambiemos los nombres del archivo prompts/NotesBySubject, una vez los cambie que hago?
+
+### What happened
+
+Claude comprobó que el commit NBS-09 se había creado bien. Aclaró que no hay que cambiar el nombre del archivo, solo rellenar el campo Author de cada entrada, y dio los comandos en orden: guardar, git add, git commit, git push.
