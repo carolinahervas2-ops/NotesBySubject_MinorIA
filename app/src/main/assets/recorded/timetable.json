@@ -1,0 +1,146 @@
+{
+  "note": "Invented data for the CUNEF group project. Times are local time in Madrid.",
+  "subjects": [
+    {
+      "id": "MOB",
+      "name": "Mobile Apps",
+      "color": "#1A1F6C"
+    },
+    {
+      "id": "DAT",
+      "name": "Data Visualisation",
+      "color": "#E65100"
+    },
+    {
+      "id": "STA",
+      "name": "Statistics II",
+      "color": "#2E7D32"
+    },
+    {
+      "id": "CLD",
+      "name": "Cloud Computing",
+      "color": "#6A1B9A"
+    },
+    {
+      "id": "ETH",
+      "name": "Ethics of AI",
+      "color": "#00838F"
+    },
+    {
+      "id": "ENG",
+      "name": "English for Tech",
+      "color": "#AD1457"
+    },
+    {
+      "id": "SEM",
+      "name": "Final Project Seminar",
+      "color": "#5D4037"
+    }
+  ],
+  "slots": [
+    {
+      "id": 1,
+      "subjectId": "MOB",
+      "dayOfWeek": 1,
+      "start": "09:00",
+      "end": "10:30",
+      "room": "A-12"
+    },
+    {
+      "id": 2,
+      "subjectId": "STA",
+      "dayOfWeek": 1,
+      "start": "11:00",
+      "end": "12:30",
+      "room": "B-03"
+    },
+    {
+      "id": 3,
+      "subjectId": "ENG",
+      "dayOfWeek": 1,
+      "start": "15:00",
+      "end": "16:30",
+      "room": "A-07"
+    },
+    {
+      "id": 4,
+      "subjectId": "DAT",
+      "dayOfWeek": 2,
+      "start": "09:00",
+      "end": "10:30",
+      "room": "Lab 2"
+    },
+    {
+      "id": 5,
+      "subjectId": "CLD",
+      "dayOfWeek": 2,
+      "start": "11:00",
+      "end": "12:30",
+      "room": "Lab 1"
+    },
+    {
+      "id": 6,
+      "subjectId": "MOB",
+      "dayOfWeek": 3,
+      "start": "09:00",
+      "end": "10:30",
+      "room": "A-12"
+    },
+    {
+      "id": 7,
+      "subjectId": "ETH",
+      "dayOfWeek": 3,
+      "start": "12:00",
+      "end": "13:30",
+      "room": "B-10"
+    },
+    {
+      "id": 8,
+      "subjectId": "STA",
+      "dayOfWeek": 3,
+      "start": "15:00",
+      "end": "16:30",
+      "room": "B-03"
+    },
+    {
+      "id": 9,
+      "subjectId": "DAT",
+      "dayOfWeek": 4,
+      "start": "09:00",
+      "end": "10:30",
+      "room": "Lab 2"
+    },
+    {
+      "id": 10,
+      "subjectId": "CLD",
+      "dayOfWeek": 4,
+      "start": "11:00",
+      "end": "12:30",
+      "room": null
+    },
+    {
+      "id": 11,
+      "subjectId": "ENG",
+      "dayOfWeek": 4,
+      "start": "13:00",
+      "end": "14:30",
+      "room": "A-07"
+    },
+    {
+      "id": 12,
+      "subjectId": "ETH",
+      "dayOfWeek": 5,
+      "start": "10:00",
+      "end": "11:30",
+      "room": "B-10"
+    },
+    {
+      "id": 13,
+      "subjectId": "MOB",
+      "dayOfWeek": 5,
+      "start": "16:00",
+      "end": "17:30",
+      "room": "A-12"
+    }
+  ]
+}

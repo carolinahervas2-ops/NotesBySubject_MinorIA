@@ -1,5 +1,3 @@
-# NotesBySubject_MinorIA
-
 # Notes by Subject
 
 Group project, app 1. With your timetable saved, every photo of the board or of your notes goes to the folder of the subject you have at that time.

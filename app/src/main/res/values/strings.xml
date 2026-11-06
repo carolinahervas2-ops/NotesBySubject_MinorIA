@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Notes by Subject</string>
+    <string name="skeleton_placeholder">This is the skeleton. Your group builds the app: start with MAI_SAP_Skeleton_App1_NotesBySubject.docx.</string>
+</resources>
